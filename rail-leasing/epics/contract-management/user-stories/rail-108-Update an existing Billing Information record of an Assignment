@@ -1,3 +1,41 @@
-# RAIL-108: Update an existing Billing Information record of an Assignment
+# Feature: Update an existing Billing Information record of an Assignment
+
+## Key
+RAIL-108
 
 ## Description
+As a Contract Specialist,
+I want to update the billing information details of an Assignment
+so the system can store accurate and updated Start, Stop, Rent, Maintenance and Notes information for billing and contract management.
+
+# Acceptance Criteria
+
+Background:
+  Given the user navigates to the Contract Profile URL
+  And the user enters the value <searchValue> into the search criteria field <assignmentField>
+  And the user clicks the Search button
+  Then 1 row is displayed on the Assignment results table
+
+  When the user clicks the assignment <assignment> in the Assignment column
+  Then the Contract Profile Details tab is displayed
+  And the expected value <assignmentValue> for the field <assignmentField> is displayed
+
+  When the user clicks the Billing tab
+  Then the header "Billing" is displayed
+  And a table is displayed with columns:
+    | Start | Stop | Rent | Maintenance | Notes |
+
+@UpdateRow
+Scenario: Update a row on the Billing table and save
+  When the user clicks the row number <row>
+  And the user updates the row fields:
+    | Start | Stop | Rent | Maintenance | Notes |
+    with values <values>
+  And the user clicks the Save button
+  Then the billing record is saved and displayed with the updated values
+
+## Assumption
+The navigation to the Contract Profile page is already available and tested.
+Authentication and permissions are not yet implemented.
+The Contract Profile search page/main page, results table are available and tested.
+The Contract Profile tab is completed, available and tested.
