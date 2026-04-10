@@ -33,7 +33,7 @@ ba/
         │   │   ├── rail-101-View Contract Profile Search and Results.md
         │   │   ├── rail-102-Search Contract Profile Record(s).md
         │   │   ├── rail-103-Add a new Contract Profile Record.md
-        │   │   ├── rail-104-Search a Contract Profile Assignment.md
+        │   │   ├── rail-104-View a Contract Profile Record.md
         │   │   ├── rail-105-Update an existing Contract Profile Record (Details Page).md
         │   │   ├── rail-106-View the Billing Information of an Assignment.md
         │   │   ├── rail-107-Add a new Billing Information record for an Assignment.md
@@ -41,10 +41,15 @@ ba/
         │   │   └── rail-109-System Displays Initial View
         │   ├── wireframe/
         │   │   ├── Wireframe-RAIL-101@InitialView.pdf
-        │   │   ├── Wireframe RAIL-103@AddNewRecord.pdf
-        │   │   └── Wireframe RAIL-101@WithResults.pdf
-        │   └── swimlane/
-        │       └── Swimlane RAIL-101@InitialView-NoRows.pdf
+        │   │   ├── Wireframe RAIL-101@WithResults.pdf
+        │   │   └── Wireframe RAIL-103@AddNewRecord.pdf
+        │   ├── swimlane/
+        │   │   └── Swimlane RAIL-101@InitialView-NoRows.pdf
+        │   ├── process_flow/
+        │   │   └── Process Flow RAIL-102 Search Contract Profile Records.pdf
+        │   └── use_case/
+        │       ├── UC001 Contract Management Contract Specialist.pdf
+        │       └── UC002 Contract Management Rail System User.pdf
         └── fleet-management/
             └── epic-overview.md
 ```

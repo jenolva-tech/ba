@@ -1,0 +1,29 @@
+#Feature: System Displays Initial View
+
+## Key
+RAIL-109
+
+## Description
+As the system,
+I want the UI to request the inital dataset and the backend returns an empty/default response when the Contract Profile page loads,
+so that the UI can render the table structure and display all appropriate empty state.
+
+## Acceptance Criteria
+
+@SystemInitialPageLoadNoRows
+Scenario: Initial page load returns an empty dataset
+    Given the backend contains no contract profile records
+    When the Contract Profile page loads
+    Then the system retunrs an empty dataset
+    And the response includes table metadata
+    And the UI displays zero rows
+    And the UI shows a "No records found" message
+
+## Assumption
+The system assumes teh user is authorized to view the page.
+Authorization for now is for read only.
+The UI triggers the initial dataset request.
+No search filters are applied on initial load.
+Backend may return zero records.
+Table metadata must always be returned.
+
