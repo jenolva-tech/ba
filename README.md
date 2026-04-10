@@ -16,8 +16,12 @@ A collection of INVEST-aligned user stories with:
 ### 2. Workflow Diagrams
 Visual process flows created using LucidChart/LucidSpark
 Includes:
+- Activity
+- Process Flow
 - Swimlane
+- Use Case
 - Wireframe
+
 
 
 ## 📁 Folder Structure
@@ -39,6 +43,13 @@ ba/
         │   │   ├── rail-107-Add a new Billing Information record for an Assignment.md
         │   │   ├── rail-108-Update an existing Billing Information record of an Assignment
         │   │   └── rail-109-System Displays Initial View
+        │   ├── activity/
+        │   │   ├── Activity RAIL-101 View Contract Profile Search and Results.pdf
+        │   │   ├── Activity RAIL-102 Search Contract Profile Records.pdf
+        │   │   ├── Activity RAIL-103 Add New Contract Profile Record.pdf
+        │   │   ├── Activity RAIL-105 Update Contract Profile Record.pdf
+        │   │   ├── Activity RAIL-107 Add Billing Record.pdf
+        │   │   └── Activity RAIL-108 Update Billing Record.pdf
         │   ├── wireframe/
         │   │   ├── Wireframe-RAIL-101@InitialView.pdf
         │   │   ├── Wireframe RAIL-101@WithResults.pdf
