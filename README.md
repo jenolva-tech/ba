@@ -1,6 +1,6 @@
 # Business Analysis Artifacts
 
-This section of the **jenolva-tech-lab** portfolio highlights my Business Analysis work, focusing on clear requirements, structured documentation, and practical Agile delivery. These artifacts demonstrate how I translate business needs into actionable, testable, and technically aligned solutions.
+This section of the **jenolva-tech-lab** portfolio highlights my Business Analysis work, focusing on clear requirements, structured documentation, and practical Agile delivery. These artifacts demonstrate how I translate business needs into actionable, testable, and technically aligned solutions, leveraging AI tools to enhance productivity, accuracy, and consistency in documentation and analysis processes.
 
 ---
 
@@ -9,37 +9,45 @@ This section of the **jenolva-tech-lab** portfolio highlights my Business Analys
 ### 1. User Stories
 A collection of INVEST-aligned user stories with:
 - Clear role, goal, and value statements
-- Acceptance criteria
+- Acceptance criteria/Test Scenarios (Gherkin)
 - Assumptions and constraints
-- Optional test scenarios
 - Links to workflows and domain artifacts
 
-### 2. Requirements Documentation
+### 2. Workflow Diagrams
+Visual process flows created using LucidChart/LucidSpark
 Includes:
-- Business Requirements (BRD)
-- Functional Requirements (FRD)
-- Non-Functional Requirements (NFRs)
-- Glossary and domain rules
+- Swimlane
+- Wireframe
 
-### 3. Workflow Diagrams
-Visual process flows created using Lucidchart or Draw.io:
-- Contract lifecycle
-- Railcar assignment
-- Billing and invoicing
-- Maintenance request flow
-
-### 4. Domain Case Study: Rail Leasing System
-A complete BA case study covering:
-- Actors and roles
-- System capabilities
-- End-to-end workflows
-- Epics and user stories
-- Business rules and dependencies
-
----
 
 ## 📁 Folder Structure
-ba/ │ ├── user-stories.md ├── requirements/ │   ├── BRD.pdf │   ├── FRD.docx │ ├── workflows/ │   ├── contract-lifecycle.png │   ├── billing-flow.png │   ├── railcar-assignment.drawio │ └── domain/ ├── rail-leasing-overview.md ├── glossary.md
+```
+ba/
+├── README.md
+└── rail-leasing/
+    ├── project-overview.md
+    └── epics/
+        ├── contract-management/
+        │   ├── epic-overview.md
+        │   ├── user-stories/
+        │   │   ├── rail-101-View Contract Profile Search and Results.md
+        │   │   ├── rail-102-Search Contract Profile Record(s).md
+        │   │   ├── rail-103-Add a new Contract Profile Record.md
+        │   │   ├── rail-104-Search a Contract Profile Assignment.md
+        │   │   ├── rail-105-Update an existing Contract Profile Record (Details Page).md
+        │   │   ├── rail-106-View the Billing Information of an Assignment.md
+        │   │   ├── rail-107-Add a new Billing Information record for an Assignment.md
+        │   │   ├── rail-108-Update an existing Billing Information record of an Assignment
+        │   │   └── rail-109-System Displays Initial View
+        │   ├── wireframe/
+        │   │   ├── Wireframe-RAIL-101@InitialView.pdf
+        │   │   ├── Wireframe RAIL-103@AddNewRecord.pdf
+        │   │   └── Wireframe RAIL-101@WithResults.pdf
+        │   └── swimlane/
+        │       └── Swimlane RAIL-101@InitialView-NoRows.pdf
+        └── fleet-management/
+            └── epic-overview.md
+```
 
 
 ---
@@ -47,10 +55,10 @@ ba/ │ ├── user-stories.md ├── requirements/ │   ├── BRD.pd
 ## 🎯 Purpose of This Section
 
 This BA portfolio demonstrates:
-- Strong analytical thinking
-- Clear, structured communication
-- Ability to break down complex business problems
-- Alignment with Agile delivery practices
-- Collaboration across BA, QA, and SDET roles
+- Strong analytical thinking enhanced by AI-assisted analysis
+- Clear, structured communication with AI-powered documentation tools
+- Ability to break down complex business problems using hybrid human-AI approaches
+- Alignment with Agile delivery practices and modern AI-augmented workflows
+- Strategic integration of AI tools for requirement gathering, validation, and artifact generation
 
-These artifacts reflect how I work in real project environments to ensure clarity, alignment, and successful delivery.
+These artifacts reflect how I work in real project environments to ensure clarity, alignment, and successful delivery while leveraging AI to amplify human expertise and accelerate value delivery.
