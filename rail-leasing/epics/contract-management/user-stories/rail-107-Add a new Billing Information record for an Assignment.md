@@ -1,4 +1,4 @@
-# Add a new Billing Information record for an Assignment
+# Feature: Add a new Billing Information record for an Assignment
 
 # Key
 RAIL-107
