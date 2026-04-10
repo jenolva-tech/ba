@@ -71,10 +71,10 @@ ba/
 ## 🎯 Purpose of This Section
 
 This BA portfolio demonstrates:
-- Strong analytical thinking enhanced by AI-assisted analysis
-- Clear, structured communication with AI-powered documentation tools
-- Ability to break down complex business problems using hybrid human-AI approaches
-- Alignment with Agile delivery practices and modern AI-augmented workflows
+- Strong analytical thinking
+- Clear, structured communication
+- Ability to break down complex business problems
+- Alignment with Agile delivery practices
 - Strategic integration of AI tools for requirement gathering, validation, and artifact generation
 
-These artifacts reflect how I work in real project environments to ensure clarity, alignment, and successful delivery while leveraging AI to amplify human expertise and accelerate value delivery.
+These artifacts reflect how I work in real project environments to ensure clarity, alignment, and successful delivery.
